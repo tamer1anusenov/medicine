@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# runtime data (keep the CSV catalog + synthetic samples, ignore the live DB & uploads)
+data/medcheck.db
+data/medcheck.db-*
+data/uploads/
+
+# env & secrets
+.env
+*.pem
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
